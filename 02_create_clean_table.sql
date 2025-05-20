@@ -6,7 +6,6 @@ CREATE TABLE outpatient_claims (
     service_end_date DATE,
     diagnosis_code_1 VARCHAR(10),
     diagnosis_code_2 VARCHAR(10),
-    diagnosis_code_3 VARCHAR(10),
     procedure_code_1 VARCHAR(10),
     procedure_code_2 VARCHAR(10),
     attending_npi VARCHAR(15),
