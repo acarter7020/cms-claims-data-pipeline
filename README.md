@@ -12,14 +12,15 @@ This project simulates a simplified data pipeline for CMS synthetic outpatient c
 The goal is to showcase SQL proficiency, schema design, and an understanding of data pipeline structure in a healthcare claims context.
 
 ## What's 📂 Included
-- [sql raw table placeholder]
-- [sql clean table placeholder]
-- [SQL query analyze data placeholder]
-- [Source to Target Mapping placeholder]
-- [Sample CSV placeholder]
+- 📄 [01_create_raw_table.sql](01_create_raw_table.sql)
+- 📄 [02_create_clean_table.sql](02_create_clean_table.sql)
+- 📊 [03_analyze_outpatient_claims.sql](03_analyze_outpatient_claims.sql)
+- 🔁 [04_source_to_target_mapping.xlsx](04_source_to_target_mapping.xlsx)
+- 📎 [05_sample_data.csv](05_sample_data.csv)
 
-## How to Use
-1. Review [sql raw table placeholder] to understand the original table structure.
-2. See [sql clean table placeholder] for how raw data is transformed into a more user-friendly format.
-3. Use [SQL query analyze data placeholder] to explore the data through sample analytical questions.
-4. Reference [source to target mapping placeholder] to understand field transformations. 
+## 🔍 How to Use
+1. Review [01_create_raw_table.sql](01_create_raw_table.sql) to understand the original table structure.
+2. See [02_create_clean_table.sql](02_create_clean_table.sql) for how raw data is transformed into a more user-friendly format.
+3. Use [03_analyze_outpatient_claims.sql](03_analyze_outpatient_claims.sql) to explore the data through sample analytical questions.
+4. Reference [04_source_to_target_mapping.xlsx](04_source_to_target_mapping.xlsx) to understand field transformations.
+5. Load [05_sample_data.csv](05_sample_data.csv) into your SQL environment to test the query and transformation logic. 
